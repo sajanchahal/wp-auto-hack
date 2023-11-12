@@ -28,6 +28,7 @@ def generate(arr, i, s, length):
             return
         else:
             print('Login attempt failed: ' + s)
+            os.system('clear')
             
         return
 
