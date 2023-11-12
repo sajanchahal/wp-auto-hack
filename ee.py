@@ -27,8 +27,9 @@ def generate(arr, i, s, length):
             print('Your password is ' + s)
             return
         else:
-            print('Login attempt failed: ' + s)
             os.system('clear')
+            print('Login attempt failed: ' + s)
+            
             
         return
 
